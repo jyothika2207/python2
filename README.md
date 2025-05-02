@@ -54,9 +54,3 @@ print("Difference")
 print(a.difference(b))
 print("symmetric Difference")
 print(a.symmetric_difference(b))
-
-
-#ASCII values printing
-c = 'g'
-# print the ASCII value of assigned character in c
-print("The ASCII value of '" + c + "' is", ord(c))
