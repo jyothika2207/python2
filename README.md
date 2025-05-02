@@ -44,6 +44,18 @@ print(1 in my_set)
 print(10 in my_set)
 
 
+#operations
+print("Union")
+a={1,2,3,4,5,6,7,8}
+b={3,4,5,6,7,9,10}
+print(a.union(b))
+print(a.intersection(b))
+print("Difference")
+print(a.difference(b))
+print("symmetric Difference")
+print(a.symmetric_difference(b))
+
+
 #ASCII values printing
 c = 'g'
 # print the ASCII value of assigned character in c
