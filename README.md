@@ -1,4 +1,3 @@
-
 #basic logic programs
 a=1
 b=2
@@ -8,12 +7,12 @@ a=a^b
 print(a,b)
 
 
-# nested tuple
+# nested tuple program
 nest=((1,2),('a',7),(5,6))
 print(nest[1])
 print(nest[1][0])
 
-#dictionary operations
+#dictionary operations program
 person={'name':'jyothika','age':19,'city':'vijayawada'}
 print(person)
 print("accesing and modifiying the persons age:")
@@ -29,7 +28,7 @@ print(person.items())
 print(person.get("age"))
 
 
-#set operations
+#set operations program
 my_set={1,2,3,4,5,6}
 print(my_set)
 print("Add and remove values")
@@ -44,7 +43,7 @@ print(1 in my_set)
 print(10 in my_set)
 
 
-#operations
+#operations program
 print("Union")
 a={1,2,3,4,5,6,7,8}
 b={3,4,5,6,7,9,10}
