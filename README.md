@@ -1,3 +1,4 @@
+
 #basic logic programs
 a=1
 b=2
@@ -26,3 +27,9 @@ print(person.keys())
 print(person.values())
 print(person.items())
 print(person.get("age"))
+
+
+#ASCII values printing
+c = 'g'
+# print the ASCII value of assigned character in c
+print("The ASCII value of '" + c + "' is", ord(c))
